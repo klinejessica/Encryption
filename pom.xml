@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.jkline.codes</groupId>
+	<artifactId>codes</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>codes</name>
+
+
+	<dependencies>
+		<!-- slf4j -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<!-- itext -->
+		<dependency>
+      		<groupId>com.itextpdf</groupId>
+      		<artifactId>kernel</artifactId>
+      		<version>7.2.1</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>com.itextpdf</groupId>
+      		<artifactId>layout</artifactId>
+      		<version>7.2.1</version>
+    	</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>barcodes</artifactId>
+			<version>7.2.1</version>
+		</dependency>
+		<dependency>
+      		<groupId>com.itextpdf</groupId>
+      		<artifactId>sign</artifactId>
+      		<version>7.2.1</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>com.itextpdf</groupId>
+      		<artifactId>io</artifactId>
+      		<version>7.2.1</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>com.itextpdf</groupId>
+      		<artifactId>html2pdf</artifactId>
+      		<version>4.0.1</version>
+    	</dependency>
+	</dependencies>
+</project>
